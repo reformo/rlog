@@ -1,0 +1,165 @@
+{
+	"id": "b2509e7f-05a0-565b-fea6-e7154f14b22b",
+	"name": "RLog",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"id": "3dd640b5-5cc9-e62b-c200-9b525e9b3355",
+			"name": "Base",
+			"description": "",
+			"order": [
+				"f009a677-532b-ac46-40f5-16ab9159d07a",
+				"bf5193eb-059c-39ba-ab77-47038476423d",
+				"a3a03a3c-9acc-5bad-dcec-8ea04587f13f",
+				"ce183513-38dd-eb90-a784-5386b5aaa206"
+			],
+			"owner": 0
+		}
+	],
+	"timestamp": 1461045360413,
+	"owner": 0,
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "a3a03a3c-9acc-5bad-dcec-8ea04587f13f",
+			"headers": "",
+			"url": "127.0.0.1:8888/log/:log_id",
+			"preRequestScript": null,
+			"pathVariables": {
+				"log_id": ""
+			},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "status",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "history_data",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1461048320839,
+			"name": "127.0.0.1:8888/log/:log_id",
+			"description": "Update status and add new history data to history",
+			"collectionId": "b2509e7f-05a0-565b-fea6-e7154f14b22b",
+			"responses": []
+		},
+		{
+			"id": "bf5193eb-059c-39ba-ab77-47038476423d",
+			"headers": "",
+			"url": "127.0.0.1:8888/log/:log_id",
+			"pathVariables": {
+				"log_id": ""
+			},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b2509e7f-05a0-565b-fea6-e7154f14b22b",
+			"data": null,
+			"dataMode": "params",
+			"name": "127.0.0.1:8888/log/:log_id",
+			"description": "Get log details",
+			"descriptionFormat": "html",
+			"time": 1461047690349,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "3dd640b5-5cc9-e62b-c200-9b525e9b3355"
+		},
+		{
+			"id": "ce183513-38dd-eb90-a784-5386b5aaa206",
+			"headers": "",
+			"url": "127.0.0.1:8888/log/AVQtO626YurfHczy2swV",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "b2509e7f-05a0-565b-fea6-e7154f14b22b",
+			"data": null,
+			"dataMode": "params",
+			"name": "127.0.0.1:8888/log/:log_id",
+			"description": "Delete log",
+			"descriptionFormat": "html",
+			"time": 1461048191138,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "3dd640b5-5cc9-e62b-c200-9b525e9b3355"
+		},
+		{
+			"id": "f009a677-532b-ac46-40f5-16ab9159d07a",
+			"headers": "",
+			"url": "127.0.0.1:8888/log",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "identifier",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "date",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "data",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1461048336291,
+			"name": "127.0.0.1:8888/log",
+			"description": "Create new log record",
+			"collectionId": "b2509e7f-05a0-565b-fea6-e7154f14b22b",
+			"responses": []
+		}
+	]
+}
