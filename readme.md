@@ -1,4 +1,6 @@
 # Log Service
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/reformo/rlog/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/reformo/rlog/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/reformo/rlog/badges/build.png?b=master)](https://scrutinizer-ci.com/g/reformo/rlog/build-status/master)
+
 **A simple event logging service written in Python** that can be used in mobile or web applications
 to report any kind of internal and/or API request/response errors or other events.
 
@@ -9,7 +11,7 @@ This service needs Elasticsearch as data store.
 Edit the shell script **mapping.sh** according to your Elasticsearch configuration.
 
 ```
-$ pip3 install-r pip.install
+$ pip3 install -r pip.install
 chmod u+xwr mappings.sh
 ./mapping.sh
 ```
